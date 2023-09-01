@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+ 
+  <script src="script.js"></script>
+</head>
+<body >
+    <header>
+        <a href="#" class="logo">WEB STACK LAB 6</a>
+        <ul class="navbar" >
+            <li><a href="#home"><b><h3>VISHNU NAIR</h3></b></a></li>       
+        </ul>
+    </header>
+    <br>
+    <br>
+    <br>
+    <section>
+  <form action="/register" method="post" id="form">
+    <div>
+      <label for="fullname"><b>Name</b></label>
+      <input type="text" id="fullname" name="fullname" />
+      <span class="valid"></span>
+      <span class="error"></span>
+    </div>
+    <div>
+      <label for="email"><b>Email Address</label>
+      <input type="email" id="email" name="email" />
+      <span class="valid"></span>
+      <span class="error"></span>
+    </div>
+    <div>
+      <label for="password"><b>Password</b></label>
+      <input type="password" id="password" name="password" />
+      <span class="valid"></span>
+      <span class="error"></span>
+    </div>
+    <div>
+      <label for="confirm_password"><b>Confirm Password</b></label>
+      <input type="password" id="confirm_password" name="confirm_password" />
+      <span class="valid"></span>
+      <span class="error"></span>
+    </div>
+    <div>
+      <label for="date_of_birth"><b>Date of Birth</b></label>
+      <input type="date" id="date_of_birth" name="date_of_birth" />
+      <span class="valid"></span>
+      <span class="error"></span>
+    </div>
+    <button type="submit" id="submit-button">Register</button>
+  </form>
+</section>
+<div class="footer" >
+    <h2>WEB STACK LAB 6</h2>
+    <div class="footer-social">
+        <!-- <a href="#"><i class='bx bxl-facebook' ></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-instagram' ></i></a>
+        <a href="#"><i class='bx bxl-youtube' ></i></a> -->
+    </div>
+
+</div>
+<script src="./js/script.js"></script>
+</body>
+</html>
